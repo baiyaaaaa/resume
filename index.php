@@ -15,7 +15,7 @@
 					<div class="mod-l">
 						<h3 class="name">曾海平</h3>
 						<div class="avatar">
-							<img src="avatar.jpg" alt="">
+							<img src="avatar.png" alt="">
 						</div>
 						<h4 class="title">与我联系</h4>
 						<ul class="contact">

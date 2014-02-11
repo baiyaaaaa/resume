@@ -20,11 +20,11 @@ ol, ul {list-style: none outside none;}
 	-ms-transform-style: preserve-3d;
 	-o-transform-style: preserve-3d;
 	transform-style: preserve-3d;
-	-webkit-transition: -webkit-transform 1s ease-in 0;
-	-moz-transition: -moz-transform 1s ease-in 0;
-	-ms-transition: -ms-transform 1s ease-in 0;
-	-o-transition: -o-transform 1s ease-in 0;
-	transition: transform 1s ease-in 0;
+	-webkit-transition: -webkit-transform 1s ease-in 0s;
+	-moz-transition: -moz-transform 1s ease-in 0s;
+	-ms-transition: -ms-transform 1s ease-in 0s;
+	-o-transition: -o-transform 1s ease-in 0s;
+	transition: transform 1s ease-in 0s;
 }
 #resume .front, 
 #resume .back {
@@ -36,7 +36,10 @@ ol, ul {list-style: none outside none;}
 #resume .front {
 	z-index:10;
 	background-color: #fff;
-	-webkit-backface-visibility:hidden;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	backface-visibility: hidden;
 }
 #resume .back {
 	z-index:5;
@@ -84,7 +87,7 @@ ol, ul {list-style: none outside none;}
 .front .skills li.s06 {width: 100px;height: 100px;line-height: 100px;}
 .front .skills li.s05 {width: 70px;height: 70px;line-height: 70px;}
 
-#btn-toggle {display:block;position: fixed;right: -54px;top: -12px;width: 165px;height: 80px;line-height: 80px;-webkit-transform:rotateZ(45deg);font-size: 24px;text-decoration: none;background-color: #e85446;color: #fff;font-weight: bold;text-align: center;}
+#btn-toggle {display:block;position: fixed;right: -54px;top: -12px;width: 165px;height: 80px;line-height: 80px;-webkit-transform:rotateZ(45deg);-moz-transform:rotateZ(45deg);font-size: 24px;text-decoration: none;background-color: #e85446;color: #fff;font-weight: bold;text-align: center;}
 
 @font-face {
 	font-family: 'icomoon';

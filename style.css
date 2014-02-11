@@ -21,7 +21,8 @@ ol, ul {list-style: none outside none;}
 	-o-transition: transform 1s ease-in 0;
 	transition: transform 1s ease-in 0;
 }
-#resume .front, #resume .back {
+#resume .front, 
+#resume .back {
 	position: absolute;
 	left: 0;
 	top: 0;

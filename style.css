@@ -1,13 +1,57 @@
 html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, address, big, cite, code, del, em, img, ins, small, strong, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend {margin: 0;padding: 0;}
 body {background-color: #000;font-family: 'MicroSoft YaHei';}
 ol, ul {list-style: none outside none;}
+.wrap-out {overflow: hidden;}
 .container {width: 920px;margin: 20px auto;}
 
-#resume {position: relative;-webkit-transform-style: preserve-3d;-webkit-perspective:400px;-webkit-transition:-webkit-transform 1s ease-in 0;}
-#resume .front, #resume .back {position: absolute;left: 0;top: 0;width: 100%;}
-#resume .front {z-index:10;background-color: #fff;-webkit-backface-visibility:hidden;}
-#resume .back {z-index:5;-webkit-transform:translateZ(-1px) rotateY(180deg);background-color: #ccf;-webkit-backface-visibility:hidden;}
-#resume.detial {-webkit-transform:rotateY(180deg);}
+#resume {
+	position: relative;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-perspective: 400px;
+	-moz-perspective: 400px;
+	-ms-perspective: 400px;
+	perspective: 400px;
+	-webkit-transition: transform 1s ease-in 0;
+	-moz-transition: transform 1s ease-in 0;
+	-ms-transition: transform 1s ease-in 0;
+	-o-transition: transform 1s ease-in 0;
+	transition: transform 1s ease-in 0;
+}
+#resume .front, #resume .back {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+}
+#resume .front {
+	z-index:10;
+	background-color: #fff;
+	-webkit-backface-visibility:hidden;
+}
+#resume .back {
+	z-index:5;
+	background-color: #ccf;
+	-webkit-transform: translateZ(-1px) rotateY(180deg);
+	-moz-transform: translateZ(-1px) rotateY(180deg);
+	-ms-transform: translateZ(-1px) rotateY(180deg);
+	-o-transform: translateZ(-1px) rotateY(180deg);
+	transform: translateZ(-1px) rotateY(180deg);
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+#resume.detial {
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	-ms-transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}
 
 .front .mod-l {padding:0 20px;width: 280px;position: absolute;left:0;top:0;background-color: #e85446;height: 100%;}
 .front .mod-l .title {margin: 30px 0 15px 0;color: #fff;font-size: 24px;line-height: 30px;font-weight: normal;font-family: 'verdana';}

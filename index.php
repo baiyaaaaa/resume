@@ -37,7 +37,7 @@
 								<div class="dt">职位</div>
 								<div class="dd">前端开发工程师（实习）</div>
 								<div class="dt">内容</div>
-								<div class="dd">就职于技术研发中心UED部门，负责携程首页、“我的携程”、内部offline系统的项目与变更。</div>
+								<div class="dd">就职于技术研发中心UED部门，负责携程首页、我的携程以及内部offline系统的项目与变更。</div>
 							</div>
 							<div class="item">
 								<div class="dt"><strong>2013年7月</strong></div>

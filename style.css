@@ -1,0 +1,48 @@
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, address, big, cite, code, del, em, img, ins, small, strong, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend {margin: 0;padding: 0;}
+body {background-color: #000;font-family: 'MicroSoft YaHei';}
+ol, ul {list-style: none outside none;}
+.container {width: 920px;margin: 20px auto;}
+
+#resume {position: relative;-webkit-transform-style: preserve-3d;-webkit-perspective:400px;-webkit-transition:-webkit-transform 1s ease-in 0;}
+#resume .front, #resume .back {position: absolute;left: 0;top: 0;width: 100%;}
+#resume .front {z-index:10;background-color: #fff;-webkit-backface-visibility:hidden;}
+#resume .back {z-index:5;-webkit-transform:translateZ(-1px) rotateY(180deg);background-color: #ccf;-webkit-backface-visibility:hidden;}
+#resume.detial {-webkit-transform:rotateY(180deg);}
+
+.front .mod-l {padding:0 20px;width: 280px;position: absolute;left:0;top:0;background-color: #e85446;height: 100%;}
+.front .mod-l .title {margin: 30px 0 15px 0;color: #fff;font-size: 24px;line-height: 30px;font-weight: normal;font-family: 'verdana';}
+.front .mod-l .name {font-size: 40px;text-align: center;line-height: 100px;color: #fff;font-family: 'verdana';}
+.front .avatar {width: 180px;height: 180px;border-radius: 50%;border:3px solid rgba(255,255,255,0.8);overflow: hidden;margin: 10px auto;}
+.front .avatar img {width: 180px;height: 180px;}
+.front .contact li {line-height: 40px;margin-bottom: 10px;color: #fff;font-size: 14px;white-space: nowrap;}
+.front .contact [class^="icon-"] {display:inline-block;margin-right:10px;height: 34px;line-height:34px;width: 34px;border-radius: 50%;background-color: #fff;text-align: center;color: #e85446;font-size: 26px;vertical-align: middle;}
+.front .introduction {color: #fff;font-size: 14px;line-height: 2;font-size: 12px;}
+
+.front .mod-r {margin-left: 360px;padding-right: 20px;}
+.front .mod-r .title {margin: 30px 0 20px;color: #e85446;font-size: 30px;line-height: 40px;font-weight: bold;font-family: 'verdana';}
+.front .mod-r [class^="icon-"] {display:inline-block;margin-right:10px;height: 40px;line-height:40px;width: 90px;text-align: center;color: #e85446;font-size: 36px;vertical-align: bottom;}
+
+.front .item {margin-bottom: 20px;}
+.front .dt {float: left;width: 90px;text-align: right;line-height: 30px;}
+.front .dd {margin-left: 100px;line-height: 30px;}
+.front .skills {position: relative;height: 380px;}
+.front .skills li {position: absolute;border-radius: 50%;border: 2px solid #fff;background-color: #e85446;color: #fff;text-align: center;}
+.front .skills li.s10 {width: 180px;height: 180px;line-height: 180px;}
+.front .skills li.s09 {width: 150px;height: 150px;line-height: 150px;}
+.front .skills li.s08 {width: 140px;height: 140px;line-height: 140px;}
+.front .skills li.s07 {width: 130px;height: 130px;line-height: 130px;}
+.front .skills li.s06 {width: 100px;height: 100px;line-height: 100px;}
+.front .skills li.s05 {width: 70px;height: 70px;line-height: 70px;}
+
+#btn-toggle {display:block;position: absolute;right: -54px;top: -12px;width: 165px;height: 80px;line-height: 80px;-webkit-transform:rotateZ(45deg);font-size: 24px;text-decoration: none;background-color: #e85446;color: #fff;font-weight: bold;text-align: center;}
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?-hu93t3');
+	src:url('fonts/icomoon.eot?#iefix-hu93t3') format('embedded-opentype'),
+		url('fonts/icomoon.woff?-hu93t3') format('woff'),
+		url('fonts/icomoon.ttf?-hu93t3') format('truetype'),
+		url('fonts/icomoon.svg?-hu93t3#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

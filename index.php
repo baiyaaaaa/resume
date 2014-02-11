@@ -8,7 +8,7 @@
 </head>
 <body>
 	<div class="wrap-out">
-		<a href="" id="btn-toggle">切换</a>
+		<a href="" id="btn-toggle">MORE</a>
 		<div class="container">
 			<div id="resume">
 				<div class="front">

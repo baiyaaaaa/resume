@@ -67,7 +67,16 @@
 						</ul>
 					</div>
 				</div>
-				<div class="back">B</div>
+				<div class="back">
+					<ul class="gallery">
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</div>

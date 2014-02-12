@@ -98,7 +98,7 @@
 							<div class="info">
 								<div class="mask">
 									<h4>Dark-UI-Kit</h3>
-									<p class="desc">这是鄙人根据国外网友的PSD图结合CSS3和HTML5的Video API还原的一套高保真UI Kit。</p>
+									<p class="desc">根据国外网友的PSD图结合CSS3和HTML5的Video API还原的一套高保真UI Kit。</p>
 									<ul class="lang">
 										<li>#CSS3</li>
 										<li>#HTML5</li>

@@ -68,14 +68,27 @@
 					</div>
 				</div>
 				<div class="back">
-					<ul class="gallery">
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-					</ul>
+					<div class="gallery">
+						<div class="item">
+							<img src="audioplayer.png" alt="">
+							<div class="info">
+								<div class="mask">
+									<h4>HTML5音频播放器</h3>
+									<ul class="lang">
+										<li>#CSS3</li>
+										<li>#HTML5</li>
+										<li>#Audio API</li>
+										<li>#File API</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="item"></div>
+						<div class="item"></div>
+						<div class="item"></div>
+						<div class="item"></div>
+						<div class="item"></div>
+					</div>
 				</div>
 			</div>
 		</div>

@@ -74,6 +74,7 @@
 							<div class="info">
 								<div class="mask">
 									<h4>HTML5音频播放器</h3>
+									<p class="desc">应用HTML5的file api以及audio api制作的音频播放器，点击CD可打开播放列表，可批量拖放本地mp3文件播放。</p>
 									<ul class="lang">
 										<li>#CSS3</li>
 										<li>#HTML5</li>
@@ -83,8 +84,29 @@
 								</div>
 							</div>
 						</div>
-						<div class="item"></div>
-						<div class="item"></div>
+						<div class="item">
+							<img src="ctrip.png" alt="">
+							<div class="info">
+								<div class="mask">
+									<h4>我的携程</h3>
+									<p class="desc">携程首页以及我的携程的页面重构和变更</p>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<img src="darkuikit.png" alt="">
+							<div class="info">
+								<div class="mask">
+									<h4>Dark-UI-Kit</h3>
+									<p class="desc">这是鄙人根据国外网友的PSD图结合CSS3和HTML5的Video API还原的一套高保真UI Kit。</p>
+									<ul class="lang">
+										<li>#CSS3</li>
+										<li>#HTML5</li>
+										<li>#Video API</li>
+									</ul>
+								</div>
+							</div>
+						</div>
 						<div class="item"></div>
 						<div class="item"></div>
 						<div class="item"></div>

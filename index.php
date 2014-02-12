@@ -2,7 +2,7 @@
 <html lang="cn">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>我的个人简历</title>
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="icon.css">
 </head>

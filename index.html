@@ -12,7 +12,7 @@ title: 我的个人简历
 </head>
 <body>
 	<div class="wrap-out">
-		<a href="" id="btn-toggle">MORE</a>
+		<a href="" id="btn-toggle">实验室</a>
 		<div class="container">
 			<div id="resume">
 				<div class="front">
@@ -133,12 +133,21 @@ title: 我的个人简历
 		</div>
 	</div>
 	<script type="text/javascript">
-		var btnToggle = document.getElementById("btn-toggle");
-		var resume =  document.getElementById("resume");
-		btnToggle.onclick = function(ev) {
-			ev.preventDefault();
-			resume.className = resume.className === 'detial' ? resume.className = '' : resume.className = 'detial';
-		}
+		!function(){
+			var btnToggle = document.getElementById("btn-toggle");
+			var resume =  document.getElementById("resume");
+			btnToggle.onclick = function(ev) {
+				ev.preventDefault();
+				currClass = resume.className;
+				if (currClass === 'detial') {
+					this.innerText = '实验室';
+					resume.className = ''
+				} else {
+					this.innerText = '返回';
+					resume.className = 'detial'
+				}
+			}
+		}();
 	</script>
 </body>
 </html>

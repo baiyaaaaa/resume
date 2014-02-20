@@ -19,7 +19,8 @@ title: 我的个人简历
 					<div class="mod-l">
 						<h3 class="name">曾海平</h3>
 						<div class="avatar">
-							<img src="avatar.png" alt="">
+							<img class="f-face" src="images/avatar.png" alt="">
+							<img class="b-face" src="images/avatar.jpg" alt="">
 						</div>
 						<h4 class="title">与我联系</h4>
 						<ul class="contact">
@@ -74,7 +75,7 @@ title: 我的个人简历
 				<div class="back">
 					<div class="gallery">
 						<div class="item">
-							<img src="audioplayer.png" alt="">
+							<img src="images/audioplayer.png" alt="">
 							<div class="info">
 								<a class="mask" href="http://whitecusp.github.io/AudioPlayer.js/" target="_blank">
 									<h4>HTML5音频播放器</h3>
@@ -89,7 +90,7 @@ title: 我的个人简历
 							</div>
 						</div>
 						<div class="item">
-							<img src="ctrip.png" alt="">
+							<img src="images/ctrip.png" alt="">
 							<div class="info">
 								<a class="mask" href="http://www.ctrip.com/" target="_blank">
 									<h4>我的携程</h3>
@@ -98,7 +99,7 @@ title: 我的个人简历
 							</div>
 						</div>
 						<div class="item">
-							<img src="darkUI.png" alt="">
+							<img src="images/darkUI.png" alt="">
 							<div class="info">
 								<a class="mask" href="http://whitecusp.github.io/Dark-UI-Kit/" target="_blank">
 									<h4>Dark-UI-Kit</h3>
@@ -112,7 +113,7 @@ title: 我的个人简历
 							</div>
 						</div>
 						<div class="item">
-							<img src="flattyUI.png" alt="">
+							<img src="images/flattyUI.png" alt="">
 							<div class="info">
 								<a class="mask" href="http://whitecusp.github.io/Flatty-ui-kit/" target="_blank">
 									<h4>Flatty-UI-Kit</h3>
@@ -149,6 +150,7 @@ title: 我的个人简历
 		!function(){
 			var btnToggle = document.getElementById("btn-toggle");
 			var resume =  document.getElementById("resume");
+			var avatar = document.getElementsByClassName("avatar")[0];
 			btnToggle.onclick = function(ev) {
 				ev.preventDefault();
 				currClass = resume.className;
@@ -159,6 +161,10 @@ title: 我的个人简历
 					this.innerText = '返回';
 					resume.className = 'detial'
 				}
+			}
+			avatar.onclick = function(ev) {
+				currClass = resume.className;
+				this.className = this.className === "avatar" ? "avatar real-face" : "avatar";
 			}
 		}();
 	</script>

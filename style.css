@@ -157,7 +157,7 @@ a {text-decoration: none;}
 	font-style: normal;
 }
 
-@media (max-device-width: 720px) {
+@media (min-width: 720px) {
 	.container {margin: 0;}
 	.front .mod-r {width: 320px;}
 }

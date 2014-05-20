@@ -505,8 +505,10 @@ J.$package(function(J){
             }
             var moveEvtHandler = function(e){
                 // e.stopPropagation();
-                // e.preventDefault();
                 ct_pos = getTouchPos(e);
+                if (Math.abs(ct_pos.x - pt_pos.x) > Math.abs(ct_pos.y - pt_pos.y)) {
+                    e.preventDefault();
+                }
             }
             var endEvtHandler = function(e){
                 // e.stopPropagation();

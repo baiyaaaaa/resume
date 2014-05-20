@@ -168,6 +168,26 @@ title: 我的个人简历
 		}
 	}();
 </script>
+<script type="text/javascript" src="js/jm.base.js"></script>
+<script type="text/javascript" src="js/jm.platform.js"></script>
+<script type="text/javascript" src="js/jm.type.js"></script>
+<script type="text/javascript" src="js/jm.dom.js"></script>
+<script type="text/javascript" src="js/jm.support.js"></script>
+<script type="text/javascript" src="js/jm.event.js"></script>
+<script type="text/javascript" src="js/jm.Animation.js"></script>
+<script type="text/javascript">
+	JM.event.on(document, "swipe", function(options) {
+		if (options.dir === "left") {
+			J.Animation({
+		        selector:"#resume .mod-r",  //要操作的dom的selector
+		        duration:1000,
+		        use3d:false
+		    }).setStyle({       //向右运动了60%，并且color变成蓝色
+		        "left":"360px"
+		    }).transit();
+		}
+	});
+</script>
 	
 </body>
 </html>

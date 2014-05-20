@@ -161,3 +161,4 @@ a {text-decoration: none;}
 	.container {margin: 0;}
 	.front .mod-r {width: 320px;}
 }
+.front .mod-r.ml360 {margin-left: 0;}

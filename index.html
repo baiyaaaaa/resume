@@ -177,7 +177,7 @@ title: 我的个人简历
 <script type="text/javascript" src="js/jm.Animation.js"></script>
 <script type="text/javascript">
 	JM.event.on(document, "swipe", function(options) {
-		if (options.dir === "left") {
+		if (options.direction === "left") {
 			var $D = J.dom;
 			$D.addClass($('#resume .mod-r'), 'ml360');
 		}

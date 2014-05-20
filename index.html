@@ -177,10 +177,18 @@ title: 我的个人简历
 <script type="text/javascript" src="js/jm.Animation.js"></script>
 <script type="text/javascript">
 	JM.event.on(document, "swipe", function(options) {
-		if (options.direction === "left") {
+		if(options.direction === "left") {
 			J.Animation({
 		        selector:"#resume .mod-r",  //要操作的dom的selector
-		        duration:1000,
+		        duration:500,
+		        use3d:false
+		    }).setStyle({       //向右运动了60%，并且color变成蓝色
+		        "left":"-360px"
+		    }).transit();
+		}else if(options.direction === "right") {
+			J.Animation({
+		        selector:"#resume .mod-r",  //要操作的dom的selector
+		        duration:500,
 		        use3d:false
 		    }).setStyle({       //向右运动了60%，并且color变成蓝色
 		        "left":"-360px"

@@ -505,7 +505,7 @@ J.$package(function(J){
             }
             var moveEvtHandler = function(e){
                 // e.stopPropagation();
-                e.preventDefault();
+                // e.preventDefault();
                 ct_pos = getTouchPos(e);
             }
             var endEvtHandler = function(e){
